@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 //import "./layout.css"
 import { createGlobalStyle } from 'styled-components';
 import Navbar from './globals/navbar'
+import Footer from './globals/Footer'
 
 
 const GlobalStyle = createGlobalStyle`
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }
