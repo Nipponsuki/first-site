@@ -1,6 +1,5 @@
 import React from "react"
 //import { Link } from "gatsby"
-import { FaBeer } from 'react-icons/fa';
 import { HomeHeader, Banner, BannerButton } from '../utils';
 import QuickInfo from '../components/homepage/QuickInfo';
 
@@ -8,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from '../components/homepage/Gallery1';
 import img from '../images/bcg/homeBcg.jpeg';
+import Menu from '../components/homepage/Menu';
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +21,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 )
 
