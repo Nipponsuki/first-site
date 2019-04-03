@@ -6,6 +6,7 @@ import QuickInfo from '../components/homepage/QuickInfo';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Gallery from '../components/homepage/Gallery1';
 import img from '../images/bcg/homeBcg.jpeg';
 
 const IndexPage = () => (
@@ -19,6 +20,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 
